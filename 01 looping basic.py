@@ -1,17 +1,15 @@
-from urllib import response
+def num_check(question):
+    valid = False
+    while not valid:
 
 
-valid = False
-while not valid:
-    response = float(input("enter a number"))
+        response = float(input("enter a number: "))
 
-    if response > 0:
-        valid = True
-    
-
-    else:
-        print("plwals enter a number more then zero")
+        if response > 0:
+            valid = True
         
 
+        else:
+            print("please enter a number more then zero")
+            print()
     
-
